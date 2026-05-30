@@ -281,54 +281,59 @@
   </div>
 </section>
 
-<section class="slide" id="part2-trackA">
+<section class="slide" id="part2-seats">
   <div class="card">
-    <span class="chip chip-brand">Part 2 · 트랙 A 두레이</span>
-    <h2 class="slide-h2" style="margin-top:10px;">① 규칙 만들기 — 주간보고 자동화</h2>
-    <p class="small" style="margin-top:4px;">프로젝트 폴더에 <span class="kbd">CLAUDE.md</span> 파일을 만들고 아래를 붙여넣은 뒤 빈칸을 채우세요.</p>
-    <div class="pre" style="margin-top:12px;"><span class="c"># 주간보고 자동화 규칙</span>
-<span class="k">## WHAT</span>: 이번 주 내 업무를 정리한 주간보고를 만든다
-<span class="k">## 입력</span>: ./이번주_메모.md
-<span class="k">## 양식</span>: 1) 금주 한 일  2) 차주 계획  3) 이슈 — 각 3줄, 존댓말
-<span class="k">## 끝나면</span>: 두레이 '주간보고' 프로젝트에 태스크로 등록</div>
-    <p class="small" style="margin-top:10px;">💡 1차에서 설치한 <b>Dooray MCP</b>가 그대로 쓰입니다.</p>
-  </div>
-</section>
-
-<section class="slide" id="part2-trackA-run">
-  <div class="card">
-    <span class="chip chip-brand">Part 2 · 트랙 A 두레이</span>
-    <h2 class="slide-h2" style="margin-top:10px;">② 한 줄로 실행</h2>
-    <div class="pre" style="margin-top:14px;font-size:16px;">claude <span class="s">"이번 주 주간보고 만들어서 두레이에 올려줘"</span></div>
-    <div class="grid-cards gc-2" style="margin-top:18px;">
-      <div class="tile-soft"><b>이렇게 됩니다</b><div class="small" style="margin-top:6px;line-height:1.8;">메모 읽기 → 양식대로 정리 → 두레이 '주간보고'에 태스크 자동 등록 → 링크 회신</div></div>
-      <div class="tile-emerald"><b>왜 강력한가</b><div class="small" style="margin-top:6px;line-height:1.8;">양식·말투·등록 위치를 매번 설명할 필요가 사라짐. <b>딱 한 줄.</b></div></div>
+    <span class="chip chip-amber">Part 2 · 자리 이동</span>
+    <h2 class="slide-h2" style="margin-top:10px;">잠깐! 같은 트랙끼리 모여 앉을게요 🪑</h2>
+    <p class="lead" style="margin-top:8px;">설문에서 나온 트랙대로 자리를 옮겨주세요. 옆 사람과 화면이 비슷해야 <b>서로 도와주기 쉽습니다.</b></p>
+    <div class="grid-cards gc-2" style="margin-top:20px;">
+      <div class="tile-brand" style="text-align:center;padding:28px;">
+        <div style="font-size:34px;">🅰️</div>
+        <div style="font-weight:800;font-size:20px;margin:8px 0;">트랙 A · 두레이</div>
+        <div class="small">→ <b>강의실 왼쪽</b>으로 이동</div>
+      </div>
+      <div class="tile-cyan" style="text-align:center;padding:28px;">
+        <div style="font-size:34px;">🅱️</div>
+        <div style="font-weight:800;font-size:20px;margin:8px 0;">트랙 B · 대시보드</div>
+        <div class="small">→ <b>강의실 오른쪽</b>으로 이동</div>
+      </div>
     </div>
+    <p class="small" style="margin-top:18px;">트랙이 헷갈리면 설문을 다시 보세요. 둘 다 흥미로우면 <b>A부터</b> 시작해도 됩니다. (두 트랙은 동시에 진행해요)</p>
   </div>
 </section>
 
-<section class="slide" id="part2-trackB">
+<section class="slide" id="part2-build">
   <div class="card">
-    <span class="chip chip-cyan">Part 2 · 트랙 B 대시보드</span>
-    <h2 class="slide-h2" style="margin-top:10px;">① 규칙 만들기 — 데이터 대시보드</h2>
-    <p class="small" style="margin-top:4px;">같은 자리에 <span class="kbd">CLAUDE.md</span>, 그리고 분석할 엑셀 파일을 둡니다.</p>
-    <div class="pre" style="margin-top:12px;"><span class="c"># 대시보드 자동화 규칙</span>
-<span class="k">## WHAT</span>: 데이터를 한눈에 보는 대시보드를 만든다
+    <span class="chip chip-cyan">Part 2 · 공통 레일 (A·B 동시 진행)</span>
+    <h2 class="slide-h2" style="margin-top:10px;">규칙 적고(①) → 한 줄로 실행(②)</h2>
+    <p class="small" style="margin-top:4px;">자기 트랙 열만 따라가세요. 폴더에 <span class="kbd">CLAUDE.md</span>를 만들어 붙여넣고, 그다음 한 줄 실행.</p>
+    <div class="grid-cards gc-2" style="margin-top:14px;">
+      <!-- 트랙 A -->
+      <div class="tile-brand">
+        <b>🅰️ 트랙 A · 두레이 (주간보고)</b>
+        <div class="small" style="margin:8px 0 4px;font-weight:700;color:var(--brand);">① CLAUDE.md</div>
+        <div class="pre" style="font-size:12px;line-height:1.6;"><span class="c"># 주간보고 자동화 규칙</span>
+<span class="k">## WHAT</span>: 이번 주 업무 주간보고 만들기
+<span class="k">## 입력</span>: ./이번주_메모.md
+<span class="k">## 양식</span>: 1)한 일 2)계획 3)이슈, 각 3줄
+<span class="k">## 끝나면</span>: 두레이 '주간보고'에 등록</div>
+        <div class="small" style="margin:10px 0 4px;font-weight:700;color:var(--brand);">② 한 줄 실행</div>
+        <div class="pre" style="font-size:12.5px;">claude <span class="s">"이번 주 주간보고 만들어서 두레이에 올려줘"</span></div>
+        <div class="small" style="margin-top:8px;">→ 메모 정리 후 두레이에 태스크 자동 등록</div>
+      </div>
+      <!-- 트랙 B -->
+      <div class="tile-cyan">
+        <b>🅱️ 트랙 B · 대시보드 (데이터)</b>
+        <div class="small" style="margin:8px 0 4px;font-weight:700;color:#0e7490;">① CLAUDE.md</div>
+        <div class="pre" style="font-size:12px;line-height:1.6;"><span class="c"># 대시보드 자동화 규칙</span>
+<span class="k">## WHAT</span>: 데이터를 한눈에 보는 대시보드
 <span class="k">## 입력</span>: ./데이터.xlsx
-<span class="k">## 출력</span>: dashboard.html (핵심지표 카드 + 표 + 막대그래프)
-<span class="k">## 규칙</span>: 숫자는 천단위 콤마, 최신 데이터 기준으로 갱신</div>
-    <p class="small" style="margin-top:10px;">💡 1차 '시나리오 A(Streamlit 대시보드)'의 확장입니다.</p>
-  </div>
-</section>
-
-<section class="slide" id="part2-trackB-run">
-  <div class="card">
-    <span class="chip chip-cyan">Part 2 · 트랙 B 대시보드</span>
-    <h2 class="slide-h2" style="margin-top:10px;">② 한 줄로 실행</h2>
-    <div class="pre" style="margin-top:14px;font-size:16px;">claude <span class="s">"데이터.xlsx로 대시보드 만들어줘"</span></div>
-    <div class="grid-cards gc-2" style="margin-top:18px;">
-      <div class="tile-soft"><b>이렇게 됩니다</b><div class="small" style="margin-top:6px;line-height:1.8;">엑셀 읽기 → 핵심지표 계산 → 표·차트가 든 <span class="kbd">dashboard.html</span> 생성 → 브라우저로 열기</div></div>
-      <div class="tile-cyan"><b>왜 강력한가</b><div class="small" style="margin-top:6px;line-height:1.8;">데이터만 새 걸로 바꿔서 다시 한 줄 → <b>항상 최신 현황판.</b></div></div>
+<span class="k">## 출력</span>: dashboard.html (지표+표+차트)
+<span class="k">## 규칙</span>: 숫자 천단위 콤마, 최신 기준</div>
+        <div class="small" style="margin:10px 0 4px;font-weight:700;color:#0e7490;">② 한 줄 실행</div>
+        <div class="pre" style="font-size:12.5px;">claude <span class="s">"데이터.xlsx로 대시보드 만들어줘"</span></div>
+        <div class="small" style="margin-top:8px;">→ dashboard.html 생성, 브라우저로 열기</div>
+      </div>
     </div>
   </div>
 </section>
@@ -373,8 +378,7 @@
     <p class="lead" style="margin-top:8px;">Claude Code의 예약 기능은 <b>원격(서버)에서 실행</b>됩니다. 내 노트북이 꺼져 있어도 돌아가요.</p>
     <div class="pre" style="margin-top:14px;">Claude Code 입력창에 그대로 입력:
 
-<span class="k">/schedule</span> 매주 월요일 오전 8시에
-  <span class="s">"이번 주 주간보고 만들어서 두레이에 올려줘"</span> 를 실행해줘</div>
+<span class="k">/schedule</span> 매주 월요일 오전 8시에 <span class="s">"이번 주 주간보고 만들어서 두레이에 올려줘"</span> 실행해줘</div>
     <div class="grid-cards gc-3" style="margin-top:16px;">
       <div class="tile-soft small"><b>매일</b><br/>아침 브리핑</div>
       <div class="tile-soft small"><b>매주</b><br/>주간보고·현황판</div>
@@ -420,13 +424,11 @@
     <div class="grid-cards gc-2" style="margin-top:18px;">
       <div class="tile-brand">
         <b>기본 키트 ① · 파일 자동 요약</b>
-        <div class="pre small" style="margin-top:10px;">claude <span class="s">"이 폴더에 새로 들어온
-파일들 핵심만 표로 요약해줘"</span></div>
+        <div class="pre small" style="margin-top:10px;">claude <span class="s">"이 폴더에 새로 들어온 파일들 핵심만 표로 요약해줘"</span></div>
       </div>
       <div class="tile-cyan">
         <b>기본 키트 ② · 두레이 내 할 일 정리</b>
-        <div class="pre small" style="margin-top:10px;">claude <span class="s">"두레이에서 내 이번 주
-할 일 모아서 우선순위로 정리해줘"</span></div>
+        <div class="pre small" style="margin-top:10px;">claude <span class="s">"두레이에서 내 이번 주 할 일 모아서 우선순위로 정리해줘"</span></div>
       </div>
     </div>
     <p class="lead" style="margin-top:18px;">둘 중 하나만 동작시켜도 <b>게이트 C 통과.</b> 완벽보다 "일단 1개 돌아가게".</p>
@@ -588,10 +590,8 @@
     'part1-survey':'<span class="nt-time">~10분 (실습/게이트)</span>설문 주소 띄우고 다 같이 풀기. "6번 클릭이면 끝." 다 풀면 <b>같은 트랙끼리 자리 이동</b>시키기(A는 왼쪽/B는 오른쪽 등). 캡처 확인 = 게이트 통과. 조교가 결과 화면 확인 순회.',
     'part1-canvas':'<span class="nt-time">~2분</span>설문 결과 예시 보여주며 "이렇게 채워졌죠? 이게 여러분 설계도." 한 줄 정의를 소리 내어 읽기. "이제 이걸 진짜로 만들러 갑니다."',
     'part2-skeleton':'<span class="nt-time">~3분</span>1·2·3 골격. <b>"트랙 달라도 골격은 똑같다"</b> 강조 — 그래야 트랙 나뉘어도 안 불안. 1차에서 CLAUDE.md 개념 배운 것 상기.',
-    'part2-trackA':'<span class="nt-time">~3분 (트랙A)</span>트랙A 인원만 따라오게. CLAUDE.md 파일 만드는 법(폴더 열기→새 파일) 천천히. 복사 버튼으로 붙여넣기. "빈칸은 본인 것으로 나중에 바꿀 거예요(STEP4)."',
-    'part2-trackA-run':'<span class="nt-time">~8분 (실습)</span>한 줄 실행. 두레이에 올라가는 것 확인. 결과가 양식대로 나오는지 같이 보기. 트랙B 인원은 다음 슬라이드로 안내.',
-    'part2-trackB':'<span class="nt-time">~3분 (트랙B)</span>트랙B 인원 대상. 엑셀 파일이 폴더에 있는지 확인시키기. CLAUDE.md 붙여넣기. "출력은 dashboard.html 하나로 떨어져요."',
-    'part2-trackB-run':'<span class="nt-time">~8분 (실습)</span>한 줄 실행 → dashboard.html 브라우저로 열기. "데이터만 바꿔 다시 돌리면 항상 최신." 안 열리면 파일 위치 확인.',
+    'part2-seats':'<span class="nt-time">~2분</span><b>자리 이동.</b> "트랙 A는 왼쪽, B는 오른쪽으로 옮겨주세요." 실제 강의실 구역명으로 바꿔 말하기. 같은 트랙끼리 모여야 버디·조교 지원이 빨라짐. 헷갈리는 사람은 A부터.',
+    'part2-build':'<span class="nt-time">~18분 (실습/게이트 A 포함)</span><b>A·B 동시 진행.</b> 화면 왼쪽=A, 오른쪽=B. "자기 열만 보세요." ① CLAUDE.md 만들어 붙여넣기(폴더 열기→새 파일) → ② 한 줄 실행. 복사 버튼 안내. 조교는 A/B 구역 나눠서 순회. 결과 한 번 나오면 바로 게이트 A로.',
     'part2-gateA':'<span class="nt-time">~2분 (게이트 A)</span><b>전원 손들기.</b> "한 줄로 결과 한 번 나온 분?" 안 든 사람 좌석 조교 즉시 투입. <b>"이 순간 이미 자동화 1개 완성"</b> — 성취감 크게 띄우기. 버디 비교 유도.',
     'break1':'<span class="nt-time">10분</span>휴식. 늦게 끝난 사람은 이 시간에 조교가 게이트 A까지 마무리 도와주기.',
     'part3-lv3':'<span class="nt-time">~2분</span>Lv2 vs Lv3 대비. "차이는 딱 하나 — 언제 실행할지 예약." 무인화의 매력 어필("월요일 출근하면 보고서가 이미 올라가 있다").',
